@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyInventory</string>
+    <string name="title_activity_mohammedomar">mohammedomar</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <array name="category">
+
+        <item>Health</item>
+        <item>Food</item>
+        <item>Technology</item>
+        <item>Medics</item>
+        <item>Drinks</item>
+
+    </array>
+
+
+</resources>

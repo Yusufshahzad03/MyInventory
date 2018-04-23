@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yusuf.myinventory.AddProductInfo">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:animateLayoutChanges="false"
+        android:background="@drawable/bg"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="320dp"
+            android:layout_height="124dp"
+            android:layout_above="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="25dp"
+            android:baselineAligned="false"
+            app:srcCompat="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="320dp"
+            android:layout_height="47dp"
+            android:layout_above="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            app:srcCompat="@drawable/productsinfoheader" />
+
+        <TextView
+            android:id="@+id/textviewproductname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/txtsupplier"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/common_google_signin_btn_text_light_default"
+            android:baselineAligned="false"
+            android:hint="Please Enter Supplier"
+            android:inputType="text"
+            android:textColor="@android:color/darker_gray"
+            android:textColorHint="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/txtdeliverydate"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/common_google_signin_btn_text_light_default"
+            android:hint="Please Enter Delivery Date"
+            android:inputType="date"
+            android:textColor="@android:color/darker_gray"
+            android:textColorHint="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/txtproductinfo"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/common_google_signin_btn_text_light_default"
+            android:hint="Please Enter Product Information"
+            android:inputType="text"
+            android:textColor="@android:color/darker_gray"
+            android:textColorHint="@android:color/darker_gray" />
+
+        <ListView
+            android:id="@+id/listViewinfo"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg" />
+
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/addinfobtn" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
